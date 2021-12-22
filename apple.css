@@ -1,0 +1,172 @@
+
+    .heder{
+       
+        z-index: 5;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 48px;
+        overflow: hidden;
+        
+    
+    background-color:rgba(0,0,0,0.8);
+  
+
+    }
+    body{
+        margin: 0px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    a{
+        
+        color: rgb(255, 254, 254);
+        text-decoration: none;
+    }
+    li{
+        
+        color: rgb(255, 255, 255);
+       
+        font-size: 15px;
+    }
+    .h1 img{
+        margin: 0%;
+       
+        width: 3rem;
+     
+        background-color:rgb(255, 255, 255);
+        
+    }
+    .h1{
+        text-align: center;
+    }
+
+   .hed{
+      font-size: 4em;
+      text-align: center;
+      font-family: sans-serif;
+   }
+   button {
+       padding: 10px 10px;
+       border-radius: 17px;
+   }
+ 
+  
+.ba {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+.ba button{
+    border: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    color: #fff;
+    background: linear-gradient(to right  bottom,rgb(73, 104, 100),rgb(172, 224, 209));
+
+}
+.banner{
+    margin: auto;
+    text-align: center;
+}
+.banner img{
+    width: 60rem;
+    
+}
+.banner2{
+    margin:2%;
+    text-align: center;
+}
+.banner2 img{
+    width: 60rem;
+    
+}
+.container{
+    margin: auto;
+    width: 67.5%;
+    height: 480px;
+   
+    background-color: white;
+}
+.ted{
+    font-size: 2.5em;
+      text-align: center;
+      font-family: SF Pro Text,Myriad Set Pro,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;;
+      text-align: left;
+      color: #3c689c;
+}
+.main{
+    background-color: white;
+}
+.para{
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.img1{
+    top: 0%;
+    float: right;
+}
+.container{
+    display: flex;
+}
+.bacground{
+    width: 100%;
+   height: 400px;
+    background-image: url(/A1/apple/bac.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+.ted1{
+   text-align: center;
+  padding-top: 9%;
+  font-size: 2.5em;
+}
+.para2{
+    text-align: center;
+    font-size: 1.4em;
+
+
+}
+.footer{
+    border-top: 1px solid black;
+    background-color: white;
+    color: rgb(10, 1, 1);
+    height: 480px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.bottom li{
+   
+    margin-bottom: 10px;
+    color: black;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer .footer-bottom{
+    text-align: center;
+      font-size: .9em;
+      position: absolute;
+      bottom: 0%;
+      left: 0px;
+     padding-top: 20px;
+     height: 50px;
+     width: 100%;
+     border-top: 1px solid black;
+  }
